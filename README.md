@@ -1,7 +1,8 @@
-# Tauri + Vue + TypeScript
+# IOTAgent
+使用国产大模型进行固件分析的自动化工具
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 使用方法推荐
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+建议使用 **硅基流动 API**，顾问推荐使用思考模型 `Pro/zai-org/GLM-4.7`
+需要使用到 **远程服务器或本地虚拟机**，请提前配置好 `binwalk` 以及 [joern](cci:1://file:///c:/Users/22522/Desktop/Project/IOTagent/iot-firmware-hunter/src-tauri/src/tools/registry.rs:626:4-801:5) 工具
+本地物理机需要提前下载 **Ghidra** 反编译工具
